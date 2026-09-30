@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "unzip -o mpacc240-source.zip && npm --prefix mpacc240 ci",
+  "buildCommand": "npm --prefix mpacc240 test && npm --prefix mpacc240 run build",
+  "outputDirectory": "mpacc240/dist"
+}
